@@ -15,7 +15,7 @@ const BoughtRecentlyStyled = styled.section`
     }
 
     @media (max-width: 479px) {
-        padding: 4rem 4%;
+        padding: 4rem 4% 7rem;
     }
 
     & aside {
