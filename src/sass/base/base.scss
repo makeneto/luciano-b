@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+    --color-background: #FFFAF5;
+    --color-light-brown: #f2e2c4;
+    --color-dark-brown: #936e3a;
+    --color-text: #010d26;
+    --font-primary: "Poppins", sans-serif;
+    --font-heading: "Playfair Display", serif;
+    --padding-main: 7% 17% 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: #f2e2c4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-primary);
+}
+
+h1,
+h2 {
+    font-family: var(--font-heading);
+}
+
+h1 {
+    font-weight: 400;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+}
+
+
+a,
+button {
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.input-error {
+    border: 2px solid red;
+}
+
+.moreMargin {
+    margin-top: 0.8rem;
+}
