@@ -23,7 +23,7 @@ const ContactStyled = styled.section`
 
         @media (max-width: 479px) {
             width: 100%;
-            padding: 2.5rem 3rem 2rem;
+            padding: 2rem 8% 4rem;
         }
 
         & h1 {
