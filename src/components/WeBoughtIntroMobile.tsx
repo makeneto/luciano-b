@@ -54,7 +54,7 @@ const AnimatedWord = styled.div<{ active: boolean }>`
     opacity: ${({ active }) => (active ? 1 : 0)};
 `
 
-const words = ["Velho", "Amassado", "Riscado", "Danificado"]
+const words = ["Velho?", "Amassado?", "Riscado?", "Danificado?"]
 
 export default function WeBoughtIntroMobile() {
     const [index, setIndex] = useState<number>(0)
