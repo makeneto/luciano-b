@@ -16,7 +16,7 @@ const StepsStyled = styled.main`
         }
 
         @media (max-width: 479px) {
-            gap: 7rem;
+            gap: 8.6rem;
         }
     }
 
