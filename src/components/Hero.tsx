@@ -221,7 +221,7 @@ const HeroStyled = styled.header`
             left: 100%;
             transform: translateY(-50%);
 
-            @media (min-width: 885px) and (max-width: 1439px) {
+            @media (max-width: 1439px) {
                 display: none;
             }
         }
@@ -308,6 +308,7 @@ export default function Hero() {
             <article>
                 <div></div>
                 <img src="/assets/hero.webp" alt="Hero Image" loading="lazy" />
+
                 <img
                     src="/assets/patterns/pattern-right.webp"
                     alt="Hero Pattern"
