@@ -6,7 +6,7 @@ const NavStyled = styled.nav`
     justify-content: space-between;
     padding: 2rem 17% 0;
 
-    @media (min-width: 885px) and (max-width: 1919px) {
+    @media (min-width: 885px) and (max-width: 1440px) {
         padding: 3rem 3% 0;
     }
 
