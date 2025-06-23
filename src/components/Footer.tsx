@@ -50,19 +50,23 @@ export default function Footer() {
     const now = moment()
     const year = now.year()
 
+    const facebook = "https://www.facebook.com/profile.php?id=61558114124546"
+    const instagram = "https://www.instagram.com/lucianob_compra_de_ouro"
+    const threads = "https://www.threads.net/@lucianob_compra_de_ouro"
+
     return (
         <FooterStyled>
             <img src="logo.webp" alt="Luciano B Logo" />
 
             <article>
                 <div>
-                    <Link to="/">
+                    <Link to={facebook}>
                         <FiFacebook />
                     </Link>
-                    <Link to="/">
+                    <Link to={instagram}>
                         <BsInstagram />
                     </Link>
-                    <Link to="/">
+                    <Link to={threads}>
                         <SiThreads />
                     </Link>
                 </div>
