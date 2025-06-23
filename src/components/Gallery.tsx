@@ -13,7 +13,7 @@ const GalleyStyled = styled.div`
     }
 
     @media (max-width: 479px) {
-        height: 18rem;
+        height: 15rem;
         gap: 2px;
     }
 
